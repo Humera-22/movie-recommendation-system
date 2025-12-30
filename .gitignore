@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env
+
+# Ignore ML pickle files (very large)
+app/*.pkl
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+

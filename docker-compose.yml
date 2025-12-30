@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  movie-recommender:
+    build: ./app
+    ports:
+      - "8501:8501"
+    environment:
+      TMDB_API_KEY: 7f37db1f53480bcf55fe8ca77f4e8feb
+
